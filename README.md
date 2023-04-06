@@ -2,4 +2,4 @@ To run this code, you must first have Python installed on your computer. You can
 
 # Example 
 
-!(https://raw.githubusercontent.com/Spongly/wikipy/main/image/example.png)
+![ex](https://raw.githubusercontent.com/Spongly/wikipy/main/image/example.png)
