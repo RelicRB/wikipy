@@ -3,3 +3,5 @@ To run this code, you must first have Python installed on your computer. You can
 # Example 
 
 ![ex](https://raw.githubusercontent.com/Spongly/wikipy/main/image/example.png)
+
+To exit the program give "/exit" command while query input is asked

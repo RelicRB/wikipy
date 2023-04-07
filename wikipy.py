@@ -1,14 +1,20 @@
+import wikipedia as wp
 import wikipediaapi
 
 wiki_wiki = wikipediaapi.Wikipedia('en')
 
 while True:
     query = input("\nPlease enter a topic: ")
+    
+    if query == "/exit":
+        print("Exiting program...")
+        break
 
     topic_pg = wiki_wiki.page(query)
 
     if not topic_pg.exists():
         print("Sorry, that topic could not be found. Please try again.")
+        print("\nRelated pages: ", wp.search(query))
         continue
 
     print("\nWhat would you like to see?")
